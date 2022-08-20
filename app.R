@@ -4,7 +4,7 @@ library(shinythemes)
 library(shinyWidgets)
 library(tidyverse)
 library(readxl)
-tabela <- read_excel("ictio_ubm.xlsx")
+tabela <- read_excel("data.xlsx")
 tabela <- tibble(tabela)
 
 # section 1.2 - set initial selection 
